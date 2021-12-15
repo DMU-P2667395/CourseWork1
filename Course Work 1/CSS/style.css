@@ -1,0 +1,192 @@
+body{ /* this is to control the backhground on both pages using a photo*/
+
+background-image: url("../Image/cover.jpg"); /* this selects the image i wish to put on the background */
+background-repeat: no-repeat; /* this makes sure the image doesnt repeat */
+background-size: cover;/*this makes sure that the image will cover the whole background*/
+}
+.h1{/*using the fullstop shows the code that istead of editing the body or head element to shearch for a div which has been classed*/
+  text-align: center; /*this makes sure that text is centered */
+  font-size: 6em;/*this changes the size of the text to appear bigger depending on the size you select, it can also be used to shrink the text*/
+  font-family: sans-serif; /*this chooses the font that i wish to use for the text*/
+  color: white;/* this chooses the colour of text that i want it to use*/
+}
+.cst{
+  text-align: center;/*this algins the text to the center*/
+
+}
+.synop{
+  word-break: normal; /*this makes sure that if the word breaks half way through the word that its put into the line bellow without mkaing the reader piece it together*/
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+.button {
+  border: none; /*this makes sure that there is no border in addition to the paddinhg and margin*/
+  color: white;
+  padding: 16px 6em;/*this padds the element so that it doesnt collide with anything else on the page*/
+  text-align: center;/*this algins it in the center of the element*/
+  text-decoration: none;/* this is if you wish to put a line either above thorugh or under the text*/
+  display: inline-block; /* this is allows to set a width and height*/
+  font-size: 1.5em;
+  margin: 4px 2px;/*this adds a margin which is like padding but just adds more to it*/
+  transition-duration: 0.4s;/*this is to set show long the transition should be before its finished*/
+  cursor: pointer; /* this shows what the cursor should look like then moused over*/
+}
+
+.button1 {
+  background-color: #476669;/*this chooses the colour the button should be before the transition takes place*/
+  color: white;/*selects text colour*/
+  border: 2px solid #476669; /*selects how big the border should be and what colour it shuld be and if its solid or mixed */
+  margin: 0;
+  position: absolute;/*makes sure that the buttons are locked in place on the page*/
+  top: 29%;/*this chooses how close to the toop of the page the button should be*/
+  left: 30%;/*this decides how far left the button should be*/
+  -ms-transform: translate(-50%, -50%);/*this tells the browser how to control and translate the button, so -50% means that they're perfectly centered in the space between the screen*/
+  transform: translate(-50%, -50%);
+}
+
+.button1:hover {
+  background-color: #719b9f;
+  color: black;
+  border: 2px solid #719b9f
+}
+.button2 {
+  background-color: #fa0;
+  color: white;
+  border: 2px solid #fa0;
+  margin: 0;
+  position: absolute;
+  top: 29%;
+  left: 70%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button2:hover {
+  background-color: ##ffcc99;
+  color: black;
+  border: 2px solid #ffcc99
+}
+.vid{
+  width: =80%;/* this sets the video size to 80% of the width of the screen*/
+}
+.h3{
+  text-align: center;
+  font-size: 3em;
+  background-color: #476669;/*this changes the background colour to the text */
+  color: white;
+  border: 1px solid #65979c;
+}
+.footer{
+  text-align: left;/*this aligns the text to the left side of the element*/
+  font-size: 1.4em;
+  background-color: #476669;
+  color: #adadad;
+  border: 10px solid #476669;
+  background-color: #476669;
+}
+.title{
+  text-align: center;
+  font-size: 4em;
+  font-family: sans-serif;
+  color: white;
+}
+.container{
+  height: 500px;/*this sets the height of the container to be 500px big*/
+  position: relative; /*this measn that the positioning is relative to the size of the screen and the padding also*/
+  border: 5px solid #3c5cfa;
+  background-color: #517cad;
+}
+.HeadshotT{
+  top: 40%;
+  left: 10%;
+  align-items: left;
+  float: left;/*this floats the img left of the conatiner that its in*/
+  padding: 20px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+img{/* this makes it so that every img on the web page will all have a margin*/
+  margin: 2.5px
+}
+.ParaT{
+  word-break: normal;
+  word-spacing: 0px;/*this makes the paragraph closer together since theres very little spacing between the words*/
+  text-align: center;
+  font-size: 1.3em;
+  float: right;
+  padding: 10px;
+  padding-top: 20px;/*this means that instead of the 10px worth of padding all over, the top will have 20 instead*/
+  padding-bottom: 20px;
+  margin: 10px;
+  width: 1000px;
+}
+.tim_rob{
+  text-align: center;
+  font-weight: bold;/*this makes the text bold*/
+  font-size: 1.5em;
+  margin-left: 10px;
+  margin-top: 0.5px;
+  padding: 10px;
+}
+.interview1{
+  float: right;/*this floats the element right of the container*/
+  margin: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 300px 10px 20px; /*this is another way to create padding so now it has 10px on top 300to the right 10 bottom 20 left*/
+
+}
+.container1{
+  height: 500px;
+  position: relative;
+  border: 5px solid #3c5cfa;
+  background-color: #517cad;/*this sets the background colour for the container*/
+}
+.HeadshotM{
+    top: 40%;
+    left: 10%;
+    align-items: left;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.ParaM{
+  word-break: normal;
+  word-spacing: 0px;
+  text-align: center;
+  font-size: 1.3em;
+  float: right;
+  width: 1000px;
+  padding: 20px;
+
+}
+.Morg-Free{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-left: 10px;
+  margin-top: 0.5px;
+}
+.interview2{
+  float: right;
+  margin: 25px;
+  padding: 10px 300px 10px 10px;
+
+}
+.cast_foot{
+  padding: 5px;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 1.4em;
+  border: 5px solid #476669;
+  background-color: #476669;
+  color: #adadad;
+}
+.container2{
+  height: 200px;
+  width: 100%;
+  border: 5px solid #3c5cfa;
+  background-color: #517cad;
+  display: flex;
+}

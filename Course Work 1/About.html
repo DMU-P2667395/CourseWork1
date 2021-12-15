@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <title>Shawshank Redemption</title>
+    <h1 class="h1">Shawshank Redemption</h1> <!-- this is a header that will act as my title-->
+  </head>
+<link rel="stylesheet" href="CSS\style.css"> <!-- this links the css page so the browser will read the sheet -->
+<body>
+
+<div class="button"> <!-- a div element tells the css what to customise-->
+  <a <button class="button button1" href="About.html">About</button></a> <!-- this gives the button the link of the page to go to-->
+  <a <button class="button button2" href="Castpage.html">Cast</button></a>
+</div>
+<br>
+<br>
+<br> <!-- this puts a break in the page allowing for the page to look structured-->
+<div class="synop">
+  <h2>Synopsis</h2>
+  <p>Two imprisoned men bond over years while imprisoned, finding comfort in performing common acts of decency. Like opening a library and helping other inmates before attempting to escaping for himself admist a corrupt warden.</p>
+</div>
+<br>
+<div class="vid">
+  <div class="h3">
+    <h3>Trailer</h3>
+  </div>
+  <br>
+  <center>
+  <video controls src="Video\trailer.mp4"  poster="Image\Shawshank_cover.jpg"> <!-- this inserts a video into the webpage-->
+  <video controls src="Video\trailerogg.ogg"  poster="Image\Shawshank_cover.jpg"><!--the controls element in the HTML code allows the user to pause and play the video-->
+  <video controls src="Video\trailerwav.wav"  poster="Image\Shawshank_cover.jpg"><!--the  poster code allows for the cover image to be on the vidoe before you press play-->
+    Sorry your browser doesn't support the video file format. <!-- this shows if the browser doesnt support the file types which owuld be rare-->
+  </video>
+</center>
+</div>
+
+<div class="footer"> <!-- I put the footer in the div to make the code cleaner and allow me to edit it in css-->
+  <footer> P2667395 <!-- i dont need to put this in a <p> element because in th efooter it doesnt need it-->
+    <br>
+    If you wish to find out more about the film click <a href="https://www.imdb.com/title/tt0111161/?ref_=ttfc_fc_tt"> Here</a>
+  </footer>
+</div>
+  </body>
+</html>
